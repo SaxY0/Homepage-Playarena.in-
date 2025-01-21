@@ -188,7 +188,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsAnimating(false);
-    }, 5000);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [currentSlide]);
